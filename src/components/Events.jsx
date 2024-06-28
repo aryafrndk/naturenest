@@ -35,7 +35,7 @@ const PrevArrow = (props) => {
 
 const Events = () => {
   const location = useLocation();
-  const isEventsPath = location.pathname === '/events';
+  const isEventsPath = location.pathname === '/naturenest/events';
 
   const shortenDescription = (description) => {
     const words = description.split(' ');

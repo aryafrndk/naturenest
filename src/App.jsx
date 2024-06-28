@@ -20,15 +20,15 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/:id" element={<ProjectDetail />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/news/:id" element={<NewsDetailPage />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/donate" element={<Donate />} />
-          <Route path="/volunteer" element={<Volunteer />} />
+          <Route path="/naturenest/" element={<Home />} />
+          <Route path="naturenest/news" element={<News />} />
+          <Route path="naturenest/projects" element={<Projects />} />
+          <Route path="naturenest/projects/:id" element={<ProjectDetail />} />
+          <Route path="naturenest/events" element={<Events />} />
+          <Route path="naturenest/news/:id" element={<NewsDetailPage />} />
+          <Route path="naturenest/contact" element={<Contact />} />
+          <Route path="naturenest/donate" element={<Donate />} />
+          <Route path="naturenest/volunteer" element={<Volunteer />} />
         </Routes>
         <Footer />
       </div>

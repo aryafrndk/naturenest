@@ -35,7 +35,7 @@ const PrevArrow = (props) => {
 
 const News = () => {
   const location = useLocation();
-  const isNewsPath = location.pathname === '/news';
+  const isNewsPath = location.pathname === '/naturenest/news';
 
   const shortenSummary = (summary) => {
     const words = summary.split(' ');

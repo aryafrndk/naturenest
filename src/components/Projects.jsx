@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const Projects = () => {
   const location = useLocation();
-  const isProjectsPath = location.pathname === '/projects';
+  const isProjectsPath = location.pathname === '/naturenest/projects';
   const projectsToShow = isProjectsPath ? allProjects : allProjects.slice(0, 3);
 
   // Slider settings

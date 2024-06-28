@@ -11,16 +11,16 @@ const Navbar = () => {
   return (
     <nav className="bg-green-600 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-xl font-bold text-white">NatureNest</Link>
+        <Link to="/naturenest/" className="text-xl font-bold text-white">NatureNest</Link>
         
         {/* Menu for desktop */}
         <ul className="hidden md:flex space-x-4">
-          <li><Link to="/news" className="text-white">News</Link></li>
-          <li><Link to="/projects" className="text-white">Projects</Link></li>
-          <li><Link to="/events" className="text-white">Events</Link></li>
-          <li><Link to="/donate" className="text-white">Donate</Link></li>
-          <li><Link to="/volunteer" className="text-white">Volunteer</Link></li>
-          <li><Link to="/contact" className="text-white">Contact</Link></li>
+          <li><Link to="naturenest/news" className="text-white">News</Link></li>
+          <li><Link to="naturenest/projects" className="text-white">Projects</Link></li>
+          <li><Link to="naturenest/events" className="text-white">Events</Link></li>
+          <li><Link to="naturenest/donate" className="text-white">Donate</Link></li>
+          <li><Link to="naturenest/volunteer" className="text-white">Volunteer</Link></li>
+          <li><Link to="naturenest/contact" className="text-white">Contact</Link></li>
         </ul>
 
         {/* Burger menu for mobile */}
