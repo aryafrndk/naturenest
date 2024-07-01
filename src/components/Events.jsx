@@ -92,7 +92,7 @@ const Events = () => {
                   <p className="text-sm text-gray-600 mb-2">{event.date}</p>
                   <p className="text-gray-700 mb-4">{shortenDescription(event.description)}</p>
                   <Link
-                    to={`/events/${event.id}`}
+                    to={`/naturenest/events/${event.id}`}
                     className="text-green-600 hover:text-green-800"
                   >
                     Read more
@@ -123,7 +123,7 @@ const Events = () => {
                     <p className="text-sm text-gray-600 mb-2">{event.date}</p>
                     <p className="text-gray-700 mb-4">{shortenDescription(event.description)}</p>
                     <Link
-                      to={`/events/${event.id}`}
+                      to={`/naturenest/events/${event.id}`}
                       className="text-green-600 hover:text-green-800"
                     >
                       Read more

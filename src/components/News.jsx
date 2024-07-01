@@ -92,7 +92,7 @@ const News = () => {
                   <p className="text-sm text-gray-600 mb-2">{article.date}</p>
                   <p className="text-gray-700 mb-4">{shortenSummary(article.summary)}</p>
                   <Link
-                    to={`/news/${article.id}`}
+                    to={`/naturenest/news/${article.id}`}
                     className="text-green-600 hover:text-green-800"
                   >
                     Read more
@@ -123,7 +123,7 @@ const News = () => {
                     <p className="text-sm text-gray-600 mb-2">{article.date}</p>
                     <p className="text-gray-700 mb-4">{shortenSummary(article.summary)}</p>
                     <Link
-                      to={`/news/${article.id}`}
+                      to={`/naturenest/news/${article.id}`}
                       className="text-green-600 hover:text-green-800"
                     >
                       Read more

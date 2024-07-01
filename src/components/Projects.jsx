@@ -57,7 +57,7 @@ const Projects = () => {
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                   <p className="text-sm text-gray-600 mb-2">{project.date}</p>
                   <p className="text-gray-700 mb-4">{project.description}</p>
-                  <Link to={`/projects/${project.id}`} className="text-green-600 hover:text-green-800">
+                  <Link to={`/naturenest/projects/${project.id}`} className="text-green-600 hover:text-green-800">
                     Read more
                   </Link>
                 </div>
@@ -85,7 +85,7 @@ const Projects = () => {
                     <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                     <p className="text-sm text-gray-600 mb-2">{project.date}</p>
                     <p className="text-gray-700 mb-4">{project.description}</p>
-                    <Link to={`/projects/${project.id}`} className="text-green-600 hover:text-green-800">
+                    <Link to={`/naturenest/projects/${project.id}`} className="text-green-600 hover:text-green-800">
                       Read more
                     </Link>
                   </div>
