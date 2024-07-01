@@ -16,17 +16,19 @@ const NewsDetail = () => {
 
   return (
     <section id="news-detail" className="py-8">
-      <div className="container mx-auto">
-        <div className="bg-white p-4 shadow-lg rounded-lg">
+      <div className="container mx-auto px-4">
+        <div className="bg-white p-4 sm:p-6 rounded-lg shadow-lg">
           <img
             src={article.image}
             alt={article.title}
-            className="w-full h-96 object-cover mb-4 rounded-t-lg"
+            className="w-full h-64 sm:h-96 object-cover mb-4 rounded-t-lg"
           />
           <div className="p-4">
-            <h2 className="text-3xl font-bold mb-2">{article.title}</h2>
+            <h2 className="text-xl sm:text-3xl font-bold mb-2">{article.title}</h2>
             <p className="text-sm text-gray-600 mb-2">{article.date}</p>
-            <p className="text-gray-700 mb-4 break-words whitespace-pre-line">{article.summary}</p>
+            <p className="text-sm sm:text-base text-gray-700 mb-4 break-words whitespace-pre-line">
+              {article.summary}
+            </p>
           </div>
         </div>
       </div>
