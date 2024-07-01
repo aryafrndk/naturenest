@@ -13,10 +13,10 @@ const Footer = () => {
         <div>
           <h4 className="text-xl font-bold mb-4">Quick Links</h4>
           <ul>
-            <li><a href="/news" className="text-sm hover:text-green-300">News</a></li>
-            <li><a href="/about" className="text-sm hover:text-green-300">About Us</a></li>
-            <li><a href="/projects" className="text-sm hover:text-green-300">Projects</a></li>
-            <li><a href="/contact" className="text-sm hover:text-green-300">Contact Us</a></li>          
+            <li><a href="/naturenest/news" className="text-sm hover:text-green-300">News</a></li>
+            <li><a href="/naturenest/about" className="text-sm hover:text-green-300">About Us</a></li>
+            <li><a href="/naturenest/projects" className="text-sm hover:text-green-300">Projects</a></li>
+            <li><a href="/naturenest/contact" className="text-sm hover:text-green-300">Contact Us</a></li>          
           </ul>
         </div>
         <div>
